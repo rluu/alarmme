@@ -1,0 +1,38 @@
+This is a log for my own use on my progress.
+
+Grep for "TODO".
+
+2/20/05:  A big obstacle I want to complete is the SetAlarmDialog.cpp.
+There is still much to do there.  I will be relieved if I can finish it.
+
+3/6/05:  pretty much finished SetAlarmDialog.cpp.  Now i need to do the AlarmClockDialog... the main dialog. (with timers and shit).
+
+3/6/05: I pretty much finished both SetAlarmDialog and Alarming
+dialog.  Now I need to do the AlarmClockDialog, and then glue things
+together.  What I need to do with that last dialog is figure out the
+widgets i want to use(displaying curruent time and alarm time), and
+using the timer to check for alarming stuff.  Making sure the modal
+stuff is correct where only the topmost window is usable etc.
+
+3/13/05:  I finished most of the stuff.  Now I just need to get the little things working, like:  key bindings for "jklh;pn", animated gifs, etc.  ALso, need to make an About dialog.
+
+3/13/05:  key bindings stuff done.  Need to make an about dialog.  
+
+3/13/05:  About dialog done.  fix the license popup so that it is in a text box that you can scroll to read the whole license.  Also, set the icon for the program as a default icon.  Only the about window should have the luu icon.
+
+3/13/05: fixed everything except for needing to fix the license
+string.  it's not the correct license string.  Also, we need to set
+the license dialog size so that it's wide enough to view for normally
+comfortable viewing (the user doesn't have to resize the dialog).
+
+3/13/05:  fixed everything.  Now all I need to do is get the animated GIFs working.
+
+3/30/05:  Fixed a bug where AM/PM would be screwed up if it was 12 am or 12 pm.  Adding 12 to the hours won't work here because 12 am + 12 != 24:xx time.  Also, fixed the spawned process kill so it works in windows.  Also fixed the winamp cmd-line option so it works correctly.  Still need to get animated GIFs working.  Everything else works.  Going to check this into a SVN repository now.
+
+4/11/05:  Need to make the GPL license split up into many QStrings.  In Windows, the compiler thinks the c-string is too long.
+
+4/21/05:  Done.
+
+5/27/05:  Fixed bugs in the logic in loadAlarmSettings().  It would load the alarm time into the AlarmClockDialog fine, but if you tried to change the alarm time, it would show up in the editing widgets as a wrong time in some cases.  Also fixed the logic for selecting the default media player type per OS that is used to build this.
+
+6/17/05:  Need to add ITUNES player onto the list.
