@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////
 
 PROJECT:    AlarmME
-AUTHOR:     Ryan Luu
+AUTHOR:     Ryan Luu  (ryanluu@gmail.com)
 VERSION:    1.0.0
 DATE:       May 27, 2005.
 
@@ -27,8 +27,23 @@ included as an installable package (QtLibrary-setup-3.2.1.exe).
 
 //////////////////////////////////////////////////////////////////////////////
 
-Contacting the author:
+Building from source:
 
-  - By email:
+Dependencies:
+  - Qt 3.2 library (or higher).
 
-	ryanluu@gmail.com
+Run the following commands to build this software and run it: 
+
+# Change to the src directory.
+cd src
+
+# Run qmake to generate the project Makefile.  
+qmake
+
+# Run make to compile.
+make
+
+# Run the application.
+./AlarmMe
+
+//////////////////////////////////////////////////////////////////////////////
