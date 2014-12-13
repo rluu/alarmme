@@ -1,9 +1,11 @@
 //////////////////////////////////////////////////////////////////////////////
 
-PROJECT:    AlarmME
-AUTHOR:     Ryan Luu  (ryanluu@gmail.com)
-VERSION:    1.0.0
-DATE:       May 27, 2005.
+Project:    AlarmME
+Author:     Ryan Luu  (ryanluu@gmail.com)
+Version:    1.0.0
+Date:       May 27, 2005.
+
+Project website: http://rluu.github.io/alarmme/
 
 //////////////////////////////////////////////////////////////////////////////
 
